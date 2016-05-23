@@ -8,7 +8,7 @@
 <artifactId>vision-server</artifactId>
 <version>1.0-SNAPSHOT</version>
 <packaging>jar</packaging>
-<name>Jetty HelloWorld</name>
+<name>Vision Server</name>
 
 <properties>
     <jettyVersion>9.0.2.v20130417</jettyVersion>
