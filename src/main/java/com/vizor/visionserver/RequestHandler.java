@@ -5,6 +5,7 @@ import org.eclipse.jetty.server.HttpOutput;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.handler.AbstractHandler;
 import org.eclipse.jetty.util.Callback;
+import org.eclipse.jetty.util.log.Log;
 
 import javax.servlet.AsyncContext;
 import javax.servlet.ServletException;
@@ -31,7 +32,11 @@ public class RequestHandler extends AbstractHandler
     {
         String requestType = request.getParameter("type");
 
-        switch (requestType)
+        Log.getRootLogger().info("Request addeds");
+
+        sendFileHandler("res/items.xml", request, httpServletRequest, httpServletResponse);
+
+       /* switch (requestType)
         {
             case "items":
             {
@@ -46,7 +51,7 @@ public class RequestHandler extends AbstractHandler
                 String id = request.getParameter("id");
                 sendFileHandler("res/stickers/" + id + ".zip", request, httpServletRequest, httpServletResponse);
             }
-        }
+        }*/
     }
 
     private void sendFileHandler(String path, Request baseRequest,
