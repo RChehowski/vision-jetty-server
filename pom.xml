@@ -63,6 +63,11 @@
         <artifactId>jetty-server</artifactId>
         <version>${jettyVersion}</version>
     </dependency>
+    <dependency>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-webapp</artifactId>
+        <version>8.1.10.v20130312</version>
+    </dependency>
 </dependencies>
 
 <build>
@@ -116,23 +121,6 @@
             <configuration>
                 <warSourceDirectory>WebContent</warSourceDirectory>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
-            </configuration>
-        </plugin>
-
-
-        <plugin>
-            <!-- Build an executable JAR -->
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>2.4</version>
-            <configuration>
-                <archive>
-                    <manifest>
-                        <addClasspath>true</addClasspath>
-                        <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>com.vizor.visionserver.Main</mainClass>
-                    </manifest>
-                </archive>
             </configuration>
         </plugin>
 

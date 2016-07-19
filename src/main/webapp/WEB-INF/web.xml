@@ -1,3 +1,11 @@
-<web-app>
-<display-name>Hello World</display-name>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+3
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+4
+    version="3.0">
+5
+    <display-name>Vision</display-name>
+6
 </web-app>

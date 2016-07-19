@@ -1,0 +1,17 @@
+<socialAppsCategories>
+    <socialAppsCategory name="Facebook">
+        <socialApp uri="com.official.facebook" imageUri="" supportsComment="true">Official Facebook client</socialApp>
+        <socialApp uri="com.unofficial.facebook" imageUri="" supportsComment="true">Unofficial Facebook client</socialApp>
+        <socialApp uri="com.other.facebook" imageUri="" supportsComment="true">Other Facebook client</socialApp>
+    </socialAppsCategory>
+    <socialAppsCategory name="Vkontakte">
+        <socialApp uri="com.official.vkontakte" imageUri="" supportsComment="true">Official Vkontakte client</socialApp>
+        <socialApp uri="com.unofficial.vkontakte" imageUri="">Unofficial Vkontakte client</socialApp>
+        <socialApp uri="com.other.vkontakte" imageUri="" supportsComment="true">Other Vkontakte client</socialApp>
+    </socialAppsCategory>
+    <socialAppsCategory name="Mail.ru">
+        <socialApp uri="com.official.mailru" imageUri="" supportsComment="true">Official Mail.ru client</socialApp>
+        <socialApp uri="com.unofficial.mailru" imageUri="">Unofficial Mail.ru client</socialApp>
+        <socialApp uri="com.other.mailru" imageUri="">Other Mail.ru client</socialApp>
+    </socialAppsCategory>
+</socialAppsCategories>
